@@ -1,23 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .text-secondary {
     color: rgb(14, 173, 70) !important;
 }
 
-#first-section {
-    background-color: #ffffff !important;
-}
-
-.navbar {
-    background-color: #000 !important;
-  }
-
 .shadow {
     box-shadow: 0 .5rem 1rem rgba(56, 232, 109, 0.15)!important;   
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #fff;
 }
 
 .nav-link:hover {
@@ -26,10 +16,8 @@
 }
 
 #slider-section img {
-    height: 250px;
-    max-width: 120%;
-    margin-right: 50px;
-    
+    height: 200px;
+    width: 150px;
 }
 
 .text-primary {
@@ -41,11 +29,67 @@
     font-weight: bolder;
 }
 
-.btn-primary {
+.btn-primary, 
+#gift-section .gift-box  {
    background-color: rgb(29, 133, 65) !important;
 }
 
-.navbar-light .navbar-toggler {
-   background-color: #ffffff !important;
+#shop-section h4 {
+    margin-bottom: 42px;
+    font-size: 24px;
+    font-family: "brandon-grotesque";
+} 
 
+#shop-section h1 {
+    margin-bottom: 32px;
+    font-size: 42px;
+    font-family: "KapraNeue";
 }
+
+#shop-section {
+    background: #000;
+    color: orange;
+}
+
+#gift-section h2, #gift-section p, #support-section p {
+    font-family: "brandon-grotesque";
+}
+
+.border:hover {
+    transform: scale(1.15);
+    color: rgb(30, 191, 30);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+
+#support-section, #mission-section {
+    background: #e2e6e9;
+}
+#support-section h4 {
+    font-family: "KapraNeue";
+}
+
+#media-section, #sustain-section, .navbar {
+    background: #000 !important;
+}
+
+#footer-section .container h5 {
+    color: #e2e6e9;
+    font-family: "brandon-grotesque";
+}
+
+#mission-section .container .mission {
+    position: relative;
+    text-align: center;
+    color: #000;
+
+  }
+
+  #mission-section .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 54px;
+    font-weight: bolder;
+    }
