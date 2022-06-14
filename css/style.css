@@ -13,6 +13,10 @@
 .nav-link:hover {
     scale: 1.1;
     transform: scale(1.18);
+    -webkit-transform: scale(1.18);
+    -moz-transform: scale(1.18);
+    -ms-transform: scale(1.18);
+    -o-transform: scale(1.18);
 }
 
 #slider-section img {
